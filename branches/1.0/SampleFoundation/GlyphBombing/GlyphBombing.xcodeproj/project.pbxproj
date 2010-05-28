@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6FBB33083E5FB60068AA05 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB32083E5FB60068AA05 /* AGL.framework */; };
+		3C6FBB34083E5FB60068AA05 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB32083E5FB60068AA05 /* AGL.framework */; };
+		3C6FBB46083E5FCE0068AA05 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB45083E5FCE0068AA05 /* Carbon.framework */; };
+		3C6FBB47083E5FCE0068AA05 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB45083E5FCE0068AA05 /* Carbon.framework */; };
+		3C6FBB4D083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */; };
+		3C6FBB4E083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */; };
+		3C6FBC6C083E6E1B0068AA05 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */; };
+		3C6FBC6D083E6E1B0068AA05 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */; };
+		529BC527102B2B280080D64F /* GlyphBombing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC525102B2B280080D64F /* GlyphBombing.cpp */; };
+		529BC528102B2B280080D64F /* GlyphBombing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC525102B2B280080D64F /* GlyphBombing.cpp */; };
+		529BC532102B2B910080D64F /* GlyphBombingL1Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC530102B2B910080D64F /* GlyphBombingL1Effect.cpp */; };
+		529BC533102B2B910080D64F /* GlyphBombingL1Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC530102B2B910080D64F /* GlyphBombingL1Effect.cpp */; };
+		52A0558E0F89B81400004535 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A0558D0F89B81400004535 /* Cg.framework */; };
+		52A0558F0F89B81400004535 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A0558D0F89B81400004535 /* Cg.framework */; };
+		52AFFC270FF8C1F60008BD07 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AFFC260FF8C1F60008BD07 /* OpenAL.framework */; };
+		52AFFC280FF8C1F60008BD07 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AFFC260FF8C1F60008BD07 /* OpenAL.framework */; };
+		DD51807010B927AC0015DFE5 /* libSEAalRendererd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806A10B927AC0015DFE5 /* libSEAalRendererd.a */; };
+		DD51807110B927AC0015DFE5 /* libSEAglApplicationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806B10B927AC0015DFE5 /* libSEAglApplicationd.a */; };
+		DD51807210B927AC0015DFE5 /* libSEAglRendererd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806C10B927AC0015DFE5 /* libSEAglRendererd.a */; };
+		DD51807310B927AC0015DFE5 /* libSEAudiod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806D10B927AC0015DFE5 /* libSEAudiod.a */; };
+		DD51807410B927AC0015DFE5 /* libSEFoundationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806E10B927AC0015DFE5 /* libSEFoundationd.a */; };
+		DD51807510B927AC0015DFE5 /* libSEPhysicsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51806F10B927AC0015DFE5 /* libSEPhysicsd.a */; };
+		DD51807C10B927BE0015DFE5 /* libSEAalRenderer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807610B927BE0015DFE5 /* libSEAalRenderer.a */; };
+		DD51807D10B927BF0015DFE5 /* libSEAglApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807710B927BE0015DFE5 /* libSEAglApplication.a */; };
+		DD51807E10B927BF0015DFE5 /* libSEAglRenderer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807810B927BE0015DFE5 /* libSEAglRenderer.a */; };
+		DD51807F10B927BF0015DFE5 /* libSEAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807910B927BE0015DFE5 /* libSEAudio.a */; };
+		DD51808010B927BF0015DFE5 /* libSEFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807A10B927BE0015DFE5 /* libSEFoundation.a */; };
+		DD51808110B927BF0015DFE5 /* libSEPhysics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD51807B10B927BE0015DFE5 /* libSEPhysics.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6FBB32083E5FB60068AA05 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		3C6FBB45083E5FCE0068AA05 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DrawSprocket.framework; path = /System/Library/Frameworks/DrawSprocket.framework; sourceTree = "<absolute>"; };
+		3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		529BC525102B2B280080D64F /* GlyphBombing.cpp */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.cpp.cpp; path = GlyphBombing.cpp; sourceTree = "<group>"; };
+		529BC526102B2B280080D64F /* GlyphBombing.h */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.c.h; path = GlyphBombing.h; sourceTree = "<group>"; };
+		529BC530102B2B910080D64F /* GlyphBombingL1Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.cpp.cpp; path = GlyphBombingL1Effect.cpp; sourceTree = "<group>"; };
+		529BC531102B2B910080D64F /* GlyphBombingL1Effect.h */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.c.h; path = GlyphBombingL1Effect.h; sourceTree = "<group>"; };
+		52A0558D0F89B81400004535 /* Cg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cg.framework; path = /Library/Frameworks/Cg.framework; sourceTree = "<absolute>"; };
+		52AFFC260FF8C1F60008BD07 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		748AA4CC07F4624400486586 /* GlyphBombingAglDebSta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlyphBombingAglDebSta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		748AA4DA07F4631800486586 /* GlyphBombingAglRelSta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlyphBombingAglRelSta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD51806A10B927AC0015DFE5 /* libSEAalRendererd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAalRendererd.a; path = ../../SDK/Lib/Debug/libSEAalRendererd.a; sourceTree = SOURCE_ROOT; };
+		DD51806B10B927AC0015DFE5 /* libSEAglApplicationd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglApplicationd.a; path = ../../SDK/Lib/Debug/libSEAglApplicationd.a; sourceTree = SOURCE_ROOT; };
+		DD51806C10B927AC0015DFE5 /* libSEAglRendererd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglRendererd.a; path = ../../SDK/Lib/Debug/libSEAglRendererd.a; sourceTree = SOURCE_ROOT; };
+		DD51806D10B927AC0015DFE5 /* libSEAudiod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAudiod.a; path = ../../SDK/Lib/Debug/libSEAudiod.a; sourceTree = SOURCE_ROOT; };
+		DD51806E10B927AC0015DFE5 /* libSEFoundationd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEFoundationd.a; path = ../../SDK/Lib/Debug/libSEFoundationd.a; sourceTree = SOURCE_ROOT; };
+		DD51806F10B927AC0015DFE5 /* libSEPhysicsd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEPhysicsd.a; path = ../../SDK/Lib/Debug/libSEPhysicsd.a; sourceTree = SOURCE_ROOT; };
+		DD51807610B927BE0015DFE5 /* libSEAalRenderer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAalRenderer.a; path = ../../SDK/Lib/Release/libSEAalRenderer.a; sourceTree = SOURCE_ROOT; };
+		DD51807710B927BE0015DFE5 /* libSEAglApplication.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglApplication.a; path = ../../SDK/Lib/Release/libSEAglApplication.a; sourceTree = SOURCE_ROOT; };
+		DD51807810B927BE0015DFE5 /* libSEAglRenderer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglRenderer.a; path = ../../SDK/Lib/Release/libSEAglRenderer.a; sourceTree = SOURCE_ROOT; };
+		DD51807910B927BE0015DFE5 /* libSEAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAudio.a; path = ../../SDK/Lib/Release/libSEAudio.a; sourceTree = SOURCE_ROOT; };
+		DD51807A10B927BE0015DFE5 /* libSEFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEFoundation.a; path = ../../SDK/Lib/Release/libSEFoundation.a; sourceTree = SOURCE_ROOT; };
+		DD51807B10B927BE0015DFE5 /* libSEPhysics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEPhysics.a; path = ../../SDK/Lib/Release/libSEPhysics.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748AA4CA07F4624400486586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6FBB33083E5FB60068AA05 /* AGL.framework in Frameworks */,
+				3C6FBB46083E5FCE0068AA05 /* Carbon.framework in Frameworks */,
+				3C6FBB4D083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */,
+				3C6FBC6C083E6E1B0068AA05 /* OpenGL.framework in Frameworks */,
+				52A0558F0F89B81400004535 /* Cg.framework in Frameworks */,
+				52AFFC280FF8C1F60008BD07 /* OpenAL.framework in Frameworks */,
+				DD51807010B927AC0015DFE5 /* libSEAalRendererd.a in Frameworks */,
+				DD51807110B927AC0015DFE5 /* libSEAglApplicationd.a in Frameworks */,
+				DD51807210B927AC0015DFE5 /* libSEAglRendererd.a in Frameworks */,
+				DD51807310B927AC0015DFE5 /* libSEAudiod.a in Frameworks */,
+				DD51807410B927AC0015DFE5 /* libSEFoundationd.a in Frameworks */,
+				DD51807510B927AC0015DFE5 /* libSEPhysicsd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D807F4631800486586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6FBB34083E5FB60068AA05 /* AGL.framework in Frameworks */,
+				3C6FBB47083E5FCE0068AA05 /* Carbon.framework in Frameworks */,
+				3C6FBB4E083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */,
+				3C6FBC6D083E6E1B0068AA05 /* OpenGL.framework in Frameworks */,
+				52A0558E0F89B81400004535 /* Cg.framework in Frameworks */,
+				52AFFC270FF8C1F60008BD07 /* OpenAL.framework in Frameworks */,
+				DD51807C10B927BE0015DFE5 /* libSEAalRenderer.a in Frameworks */,
+				DD51807D10B927BF0015DFE5 /* libSEAglApplication.a in Frameworks */,
+				DD51807E10B927BF0015DFE5 /* libSEAglRenderer.a in Frameworks */,
+				DD51807F10B927BF0015DFE5 /* libSEAudio.a in Frameworks */,
+				DD51808010B927BF0015DFE5 /* libSEFoundation.a in Frameworks */,
+				DD51808110B927BF0015DFE5 /* libSEPhysics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7432C2B407F8766A00ABC141 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				DD51806A10B927AC0015DFE5 /* libSEAalRendererd.a */,
+				DD51806B10B927AC0015DFE5 /* libSEAglApplicationd.a */,
+				DD51806C10B927AC0015DFE5 /* libSEAglRendererd.a */,
+				DD51806D10B927AC0015DFE5 /* libSEAudiod.a */,
+				DD51806E10B927AC0015DFE5 /* libSEFoundationd.a */,
+				DD51806F10B927AC0015DFE5 /* libSEPhysicsd.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		7432C2B707F8767000ABC141 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				DD51807610B927BE0015DFE5 /* libSEAalRenderer.a */,
+				DD51807710B927BE0015DFE5 /* libSEAglApplication.a */,
+				DD51807810B927BE0015DFE5 /* libSEAglRenderer.a */,
+				DD51807910B927BE0015DFE5 /* libSEAudio.a */,
+				DD51807A10B927BE0015DFE5 /* libSEFoundation.a */,
+				DD51807B10B927BE0015DFE5 /* libSEPhysics.a */,
+			);
+			name = Release;
+			sourceTree = "<group>";
+		};
+		748AA4BE07F4621A00486586 = {
+			isa = PBXGroup;
+			children = (
+				748AA50C07F465A200486586 /* Sources */,
+				748AA4F707F4641600486586 /* Libraries */,
+				748AA4E207F463F300486586 /* Frameworks */,
+				748AA4CD07F4624400486586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		748AA4CD07F4624400486586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748AA4CC07F4624400486586 /* GlyphBombingAglDebSta.app */,
+				748AA4DA07F4631800486586 /* GlyphBombingAglRelSta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748AA4E207F463F300486586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AFFC260FF8C1F60008BD07 /* OpenAL.framework */,
+				52A0558D0F89B81400004535 /* Cg.framework */,
+				3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */,
+				3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */,
+				3C6FBB45083E5FCE0068AA05 /* Carbon.framework */,
+				3C6FBB32083E5FB60068AA05 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		748AA4F707F4641600486586 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7432C2B407F8766A00ABC141 /* Debug */,
+				7432C2B707F8767000ABC141 /* Release */,
+			);
+			name = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		748AA50C07F465A200486586 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				529BC530102B2B910080D64F /* GlyphBombingL1Effect.cpp */,
+				529BC531102B2B910080D64F /* GlyphBombingL1Effect.h */,
+				529BC525102B2B280080D64F /* GlyphBombing.cpp */,
+				529BC526102B2B280080D64F /* GlyphBombing.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748AA4CB07F4624400486586 /* Agl Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4B939708674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Debug" */;
+			buildPhases = (
+				748AA4C807F4624400486586 /* Resources */,
+				748AA4C907F4624400486586 /* Sources */,
+				748AA4CA07F4624400486586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agl Debug";
+			productName = DefaultShaderStaDeb;
+			productReference = 748AA4CC07F4624400486586 /* GlyphBombingAglDebSta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		748AA4D907F4631800486586 /* Agl Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4B939A08674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Release" */;
+			buildPhases = (
+				748AA4D607F4631800486586 /* Resources */,
+				748AA4D707F4631800486586 /* Sources */,
+				748AA4D807F4631800486586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agl Release";
+			productName = DefaultShaderStaRel;
+			productReference = 748AA4DA07F4631800486586 /* GlyphBombingAglRelSta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748AA4C207F4621A00486586 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3C4B93AC08674C10001A085C /* Build configuration list for PBXProject "GlyphBombing" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 748AA4BE07F4621A00486586;
+			productRefGroup = 748AA4CD07F4624400486586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748AA4CB07F4624400486586 /* Agl Debug */,
+				748AA4D907F4631800486586 /* Agl Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748AA4C807F4624400486586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D607F4631800486586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748AA4C907F4624400486586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC527102B2B280080D64F /* GlyphBombing.cpp in Sources */,
+				529BC532102B2B910080D64F /* GlyphBombingL1Effect.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D707F4631800486586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC528102B2B280080D64F /* GlyphBombing.cpp in Sources */,
+				529BC533102B2B910080D64F /* GlyphBombingL1Effect.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C4B939908674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../SDK/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${SRCROOT}/../../SDK/Library/Debug",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../SDK/Lib/Debug\"";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = GlyphBombingAglDebSta;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		3C4B939C08674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../SDK/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${SRCROOT}/../../SDK/Library/Release",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../SDK/Lib/Release\"";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = GlyphBombingAglRelSta;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		3C4B93AE08674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4B939708674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B939908674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3C4B939A08674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B939C08674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3C4B93AC08674C10001A085C /* Build configuration list for PBXProject "GlyphBombing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B93AE08674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748AA4C207F4621A00486586 /* Project object */;
+}

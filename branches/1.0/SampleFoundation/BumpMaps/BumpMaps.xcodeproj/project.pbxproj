@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6FBB33083E5FB60068AA05 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB32083E5FB60068AA05 /* AGL.framework */; };
+		3C6FBB34083E5FB60068AA05 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB32083E5FB60068AA05 /* AGL.framework */; };
+		3C6FBB46083E5FCE0068AA05 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB45083E5FCE0068AA05 /* Carbon.framework */; };
+		3C6FBB47083E5FCE0068AA05 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB45083E5FCE0068AA05 /* Carbon.framework */; };
+		3C6FBB4D083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */; };
+		3C6FBB4E083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */; };
+		3C6FBC6C083E6E1B0068AA05 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */; };
+		3C6FBC6D083E6E1B0068AA05 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */; };
+		529BC509102B22410080D64F /* BumpMaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC507102B22410080D64F /* BumpMaps.cpp */; };
+		529BC50A102B22410080D64F /* BumpMaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529BC507102B22410080D64F /* BumpMaps.cpp */; };
+		52A0558E0F89B81400004535 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A0558D0F89B81400004535 /* Cg.framework */; };
+		52A0558F0F89B81400004535 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A0558D0F89B81400004535 /* Cg.framework */; };
+		52AFFC720FF8C5BE0008BD07 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AFFC710FF8C5BE0008BD07 /* OpenAL.framework */; };
+		52AFFC730FF8C5BE0008BD07 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AFFC710FF8C5BE0008BD07 /* OpenAL.framework */; };
+		DD517FA810B925F70015DFE5 /* libSEAalRendererd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA210B925F70015DFE5 /* libSEAalRendererd.a */; };
+		DD517FA910B925F70015DFE5 /* libSEAglApplicationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA310B925F70015DFE5 /* libSEAglApplicationd.a */; };
+		DD517FAA10B925F70015DFE5 /* libSEAglRendererd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA410B925F70015DFE5 /* libSEAglRendererd.a */; };
+		DD517FAB10B925F70015DFE5 /* libSEAudiod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA510B925F70015DFE5 /* libSEAudiod.a */; };
+		DD517FAC10B925F70015DFE5 /* libSEFoundationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA610B925F70015DFE5 /* libSEFoundationd.a */; };
+		DD517FAD10B925F70015DFE5 /* libSEPhysicsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FA710B925F70015DFE5 /* libSEPhysicsd.a */; };
+		DD517FB410B9260B0015DFE5 /* libSEAalRenderer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FAE10B9260B0015DFE5 /* libSEAalRenderer.a */; };
+		DD517FB510B9260B0015DFE5 /* libSEAglApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FAF10B9260B0015DFE5 /* libSEAglApplication.a */; };
+		DD517FB610B9260B0015DFE5 /* libSEAglRenderer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FB010B9260B0015DFE5 /* libSEAglRenderer.a */; };
+		DD517FB710B9260B0015DFE5 /* libSEAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FB110B9260B0015DFE5 /* libSEAudio.a */; };
+		DD517FB810B9260B0015DFE5 /* libSEFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FB210B9260B0015DFE5 /* libSEFoundation.a */; };
+		DD517FB910B9260B0015DFE5 /* libSEPhysics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD517FB310B9260B0015DFE5 /* libSEPhysics.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6FBB32083E5FB60068AA05 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		3C6FBB45083E5FCE0068AA05 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DrawSprocket.framework; path = /System/Library/Frameworks/DrawSprocket.framework; sourceTree = "<absolute>"; };
+		3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		529BC507102B22410080D64F /* BumpMaps.cpp */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.cpp.cpp; path = BumpMaps.cpp; sourceTree = "<group>"; };
+		529BC508102B22410080D64F /* BumpMaps.h */ = {isa = PBXFileReference; fileEncoding = 2147484705; lastKnownFileType = sourcecode.c.h; path = BumpMaps.h; sourceTree = "<group>"; };
+		52A0558D0F89B81400004535 /* Cg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cg.framework; path = /Library/Frameworks/Cg.framework; sourceTree = "<absolute>"; };
+		52AFFC710FF8C5BE0008BD07 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		748AA4CC07F4624400486586 /* BumpMapsAglDebSta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumpMapsAglDebSta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		748AA4DA07F4631800486586 /* BumpMapsAglRelSta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumpMapsAglRelSta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD517FA210B925F70015DFE5 /* libSEAalRendererd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAalRendererd.a; path = ../../SDK/Lib/Debug/libSEAalRendererd.a; sourceTree = SOURCE_ROOT; };
+		DD517FA310B925F70015DFE5 /* libSEAglApplicationd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglApplicationd.a; path = ../../SDK/Lib/Debug/libSEAglApplicationd.a; sourceTree = SOURCE_ROOT; };
+		DD517FA410B925F70015DFE5 /* libSEAglRendererd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglRendererd.a; path = ../../SDK/Lib/Debug/libSEAglRendererd.a; sourceTree = SOURCE_ROOT; };
+		DD517FA510B925F70015DFE5 /* libSEAudiod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAudiod.a; path = ../../SDK/Lib/Debug/libSEAudiod.a; sourceTree = SOURCE_ROOT; };
+		DD517FA610B925F70015DFE5 /* libSEFoundationd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEFoundationd.a; path = ../../SDK/Lib/Debug/libSEFoundationd.a; sourceTree = SOURCE_ROOT; };
+		DD517FA710B925F70015DFE5 /* libSEPhysicsd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEPhysicsd.a; path = ../../SDK/Lib/Debug/libSEPhysicsd.a; sourceTree = SOURCE_ROOT; };
+		DD517FAE10B9260B0015DFE5 /* libSEAalRenderer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAalRenderer.a; path = ../../SDK/Lib/Release/libSEAalRenderer.a; sourceTree = SOURCE_ROOT; };
+		DD517FAF10B9260B0015DFE5 /* libSEAglApplication.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglApplication.a; path = ../../SDK/Lib/Release/libSEAglApplication.a; sourceTree = SOURCE_ROOT; };
+		DD517FB010B9260B0015DFE5 /* libSEAglRenderer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAglRenderer.a; path = ../../SDK/Lib/Release/libSEAglRenderer.a; sourceTree = SOURCE_ROOT; };
+		DD517FB110B9260B0015DFE5 /* libSEAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEAudio.a; path = ../../SDK/Lib/Release/libSEAudio.a; sourceTree = SOURCE_ROOT; };
+		DD517FB210B9260B0015DFE5 /* libSEFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEFoundation.a; path = ../../SDK/Lib/Release/libSEFoundation.a; sourceTree = SOURCE_ROOT; };
+		DD517FB310B9260B0015DFE5 /* libSEPhysics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEPhysics.a; path = ../../SDK/Lib/Release/libSEPhysics.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748AA4CA07F4624400486586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6FBB33083E5FB60068AA05 /* AGL.framework in Frameworks */,
+				3C6FBB46083E5FCE0068AA05 /* Carbon.framework in Frameworks */,
+				3C6FBB4D083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */,
+				3C6FBC6C083E6E1B0068AA05 /* OpenGL.framework in Frameworks */,
+				52A0558F0F89B81400004535 /* Cg.framework in Frameworks */,
+				52AFFC730FF8C5BE0008BD07 /* OpenAL.framework in Frameworks */,
+				DD517FA810B925F70015DFE5 /* libSEAalRendererd.a in Frameworks */,
+				DD517FA910B925F70015DFE5 /* libSEAglApplicationd.a in Frameworks */,
+				DD517FAA10B925F70015DFE5 /* libSEAglRendererd.a in Frameworks */,
+				DD517FAB10B925F70015DFE5 /* libSEAudiod.a in Frameworks */,
+				DD517FAC10B925F70015DFE5 /* libSEFoundationd.a in Frameworks */,
+				DD517FAD10B925F70015DFE5 /* libSEPhysicsd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D807F4631800486586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6FBB34083E5FB60068AA05 /* AGL.framework in Frameworks */,
+				3C6FBB47083E5FCE0068AA05 /* Carbon.framework in Frameworks */,
+				3C6FBB4E083E5FE20068AA05 /* DrawSprocket.framework in Frameworks */,
+				3C6FBC6D083E6E1B0068AA05 /* OpenGL.framework in Frameworks */,
+				52A0558E0F89B81400004535 /* Cg.framework in Frameworks */,
+				52AFFC720FF8C5BE0008BD07 /* OpenAL.framework in Frameworks */,
+				DD517FB410B9260B0015DFE5 /* libSEAalRenderer.a in Frameworks */,
+				DD517FB510B9260B0015DFE5 /* libSEAglApplication.a in Frameworks */,
+				DD517FB610B9260B0015DFE5 /* libSEAglRenderer.a in Frameworks */,
+				DD517FB710B9260B0015DFE5 /* libSEAudio.a in Frameworks */,
+				DD517FB810B9260B0015DFE5 /* libSEFoundation.a in Frameworks */,
+				DD517FB910B9260B0015DFE5 /* libSEPhysics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7432C2B407F8766A00ABC141 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				DD517FA210B925F70015DFE5 /* libSEAalRendererd.a */,
+				DD517FA310B925F70015DFE5 /* libSEAglApplicationd.a */,
+				DD517FA410B925F70015DFE5 /* libSEAglRendererd.a */,
+				DD517FA510B925F70015DFE5 /* libSEAudiod.a */,
+				DD517FA610B925F70015DFE5 /* libSEFoundationd.a */,
+				DD517FA710B925F70015DFE5 /* libSEPhysicsd.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		7432C2B707F8767000ABC141 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				DD517FAE10B9260B0015DFE5 /* libSEAalRenderer.a */,
+				DD517FAF10B9260B0015DFE5 /* libSEAglApplication.a */,
+				DD517FB010B9260B0015DFE5 /* libSEAglRenderer.a */,
+				DD517FB110B9260B0015DFE5 /* libSEAudio.a */,
+				DD517FB210B9260B0015DFE5 /* libSEFoundation.a */,
+				DD517FB310B9260B0015DFE5 /* libSEPhysics.a */,
+			);
+			name = Release;
+			sourceTree = "<group>";
+		};
+		748AA4BE07F4621A00486586 = {
+			isa = PBXGroup;
+			children = (
+				748AA50C07F465A200486586 /* Sources */,
+				748AA4F707F4641600486586 /* Libraries */,
+				748AA4E207F463F300486586 /* Frameworks */,
+				748AA4CD07F4624400486586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		748AA4CD07F4624400486586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748AA4CC07F4624400486586 /* BumpMapsAglDebSta.app */,
+				748AA4DA07F4631800486586 /* BumpMapsAglRelSta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748AA4E207F463F300486586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AFFC710FF8C5BE0008BD07 /* OpenAL.framework */,
+				52A0558D0F89B81400004535 /* Cg.framework */,
+				3C6FBC6B083E6E1B0068AA05 /* OpenGL.framework */,
+				3C6FBB4C083E5FE20068AA05 /* DrawSprocket.framework */,
+				3C6FBB45083E5FCE0068AA05 /* Carbon.framework */,
+				3C6FBB32083E5FB60068AA05 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		748AA4F707F4641600486586 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7432C2B407F8766A00ABC141 /* Debug */,
+				7432C2B707F8767000ABC141 /* Release */,
+			);
+			name = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		748AA50C07F465A200486586 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				529BC507102B22410080D64F /* BumpMaps.cpp */,
+				529BC508102B22410080D64F /* BumpMaps.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748AA4CB07F4624400486586 /* Agl Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4B939708674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Debug" */;
+			buildPhases = (
+				748AA4C807F4624400486586 /* Resources */,
+				748AA4C907F4624400486586 /* Sources */,
+				748AA4CA07F4624400486586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agl Debug";
+			productName = DefaultShaderStaDeb;
+			productReference = 748AA4CC07F4624400486586 /* BumpMapsAglDebSta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		748AA4D907F4631800486586 /* Agl Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4B939A08674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Release" */;
+			buildPhases = (
+				748AA4D607F4631800486586 /* Resources */,
+				748AA4D707F4631800486586 /* Sources */,
+				748AA4D807F4631800486586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agl Release";
+			productName = DefaultShaderStaRel;
+			productReference = 748AA4DA07F4631800486586 /* BumpMapsAglRelSta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748AA4C207F4621A00486586 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3C4B93AC08674C10001A085C /* Build configuration list for PBXProject "BumpMaps" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 748AA4BE07F4621A00486586;
+			productRefGroup = 748AA4CD07F4624400486586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748AA4CB07F4624400486586 /* Agl Debug */,
+				748AA4D907F4631800486586 /* Agl Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748AA4C807F4624400486586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D607F4631800486586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748AA4C907F4624400486586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC509102B22410080D64F /* BumpMaps.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748AA4D707F4631800486586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC50A102B22410080D64F /* BumpMaps.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C4B939908674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../SDK/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${SRCROOT}/../../SDK/Library/Debug",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../SDK/Lib/Debug\"";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = BumpMapsAglDebSta;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		3C4B939C08674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../SDK/Include";
+				LIBRARY_SEARCH_PATHS = (
+					"${SRCROOT}/../../SDK/Library/Release",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../SDK/Lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../SDK/Lib/Release\"";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = BumpMapsAglRelSta;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		3C4B93AE08674C10001A085C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4B939708674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B939908674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3C4B939A08674C10001A085C /* Build configuration list for PBXNativeTarget "Agl Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B939C08674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3C4B93AC08674C10001A085C /* Build configuration list for PBXProject "BumpMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4B93AE08674C10001A085C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748AA4C207F4621A00486586 /* Project object */;
+}
